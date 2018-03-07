@@ -28,14 +28,16 @@ If you call the function exported by the module, it will return a stream that em
         id: "900000079202",
         name: "U Boddinstr."
     },
-    lines: [
-        "U8"
-    ],
+    lines: ["U8"],
     colors: [
         "silver",
         "blue"
     ],
-    image: "https://c2.staticflickr.com/4/3851/15018334836_96191ddb46_b.jpg"
+    image: {
+        source: "flickr",
+        id: 15018334836,
+        user: "ingolfbln"
+    }
 }
 ```
 
@@ -58,14 +60,14 @@ Let's take `U Boddinstraße` as an example: The dataset row would then contain t
 | `nextStation.id` | Next station ID\* | (yes) | - |
 | `nextStation.name` | Next station name (only for readability of the dataset) | no | - |
 | `colors`| Color(s) of the tile pattern. See the [colors](#colors) section for a list of valid values. | yes | `["silver", "blue"]`
-| `image`| URL to CC-licensed image of the wall pattern. Can contain the station sign. | no | `https://c2.staticflickr.com/4/3851/15018334836_96191ddb46_b.jpg` |
+| `image`| CC-licensed image of the wall pattern. Can contain the station sign. Object describing either a  `{source: 'flickr', user: 'FLICKR_USER', id: 'FLICKR_IMAGE_ID'}` (flickr) or `{source: 'commons', id: 'Filename.jpg'} (wikimedia commons) image` image | no | `{"source":"flickr","id":15018334836,"user":"ingolfbln"}` |
 
 \* See [this document](station-ids.md) if you don't know how to find out some station's VBB station ID
 
 Finally, our example would give us the following data row for the NDJSON file:
 
 ```json
-{"station":{"id":"900000079202","name":"U Boddinstr."},"lines":["U8"],"colors":["silver","blue"],"image":"https://c2.staticflickr.com/4/3851/15018334836_96191ddb46_b.jpg"}
+{"station":{"id":"900000079202","name":"U Boddinstr."},"lines":["U8"],"colors":["silver","blue"],"image":{"source":"flickr","id":15018334836,"user":"ingolfbln"}}
 ```
 
 ## Colors

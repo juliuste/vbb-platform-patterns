@@ -78,8 +78,14 @@ test('data.ndjson contains correct values', (t) => {
 
 		// image
 		if(p.image){
-			t.ok(notNullString(p.image), desc + ' image')
-			t.ok(isURL(p.image), desc + ' image')
+			t.ok(['flickr', 'commons'].includes(p.image.source), desc + ' image.source')
+			if(p.image.source === 'flickr'){
+				t.ok(notNullString(p.image.user), desc + ' image.user (flickr)')
+				t.ok(Number.isInteger(p.image.id) && p.image.id >= 0, desc + ' image.id (flickr)')
+			}
+			if(p.image.source === 'commons'){
+				t.ok(notNullString(p.image.id), desc + ' image.id (commons)')
+			}
 		}
 	})
 
