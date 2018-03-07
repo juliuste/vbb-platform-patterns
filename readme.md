@@ -4,11 +4,11 @@ Crowd sourced database of VBB station platform wall (tile) color patterns.
 
 You're invited to help, see the [data structure](#data-structure) and [contributing](#contributing) sections!
 
-[![npm version](https://img.shields.io/npm/v/boilerplate.svg)](https://www.npmjs.com/package/boilerplate)
-[![Build Status](https://travis-ci.org/juliuste/boilerplate.svg?branch=master)](https://travis-ci.org/juliuste/boilerplate)
-[![Greenkeeper badge](https://badges.greenkeeper.io/juliuste/boilerplate.svg)](https://greenkeeper.io/)
-[![dependency status](https://img.shields.io/david/juliuste/boilerplate.svg)](https://david-dm.org/juliuste/boilerplate)
-[![dev dependency status](https://img.shields.io/david/dev/juliuste/boilerplate.svg)](https://david-dm.org/juliuste/boilerplate#info=devDependencies)
+[![npm version](https://img.shields.io/npm/v/vbb-platform-patterns.svg)](https://www.npmjs.com/package/vbb-platform-patterns)
+[![Build Status](https://travis-ci.org/juliuste/vbb-platform-patterns.svg?branch=master)](https://travis-ci.org/juliuste/vbb-platform-patterns)
+[![Greenkeeper badge](https://badges.greenkeeper.io/juliuste/vbb-platform-patterns.svg)](https://greenkeeper.io/)
+[![dependency status](https://img.shields.io/david/juliuste/vbb-platform-patterns.svg)](https://david-dm.org/juliuste/vbb-platform-patterns)
+[![dev dependency status](https://img.shields.io/david/dev/juliuste/vbb-platform-patterns.svg)](https://david-dm.org/juliuste/vbb-platform-patterns#info=devDependencies)
 [![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](license)
 [![chat on gitter](https://badges.gitter.im/juliuste.svg)](https://gitter.im/juliuste)
 
