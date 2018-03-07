@@ -24,27 +24,18 @@ If you call the function exported by the module, it will return a stream that em
 
 ```js
 {
-    fromStation: {
-        id: "900000045102",
-        name: "Heidelberger Platz"
+    station: {
+        id: "900000079202",
+        name: "U Boddinstr."
     },
-    fromLines: ["S42","S46"],
-    previousStation: {
-        id: "900000044101",
-        name: "Hohenzollerndamm"
-    },
-    fromPosition: 1,
-    toStation: {
-        id: "900000045102",
-        name: "Heidelberger Platz"
-    },
-    toLines: ["U3"],
-    nextStation: {
-        id: "900000045101",
-        name: "Rüdesheimer Platz"
-    },
-    toPosition: 1,
-    samePlatform: false
+    lines: [
+        "U8"
+    ],
+    colors: [
+        "silver",
+        "blue"
+    ],
+    image: "https://c2.staticflickr.com/4/3851/15018334836_96191ddb46_b.jpg"
 }
 ```
 
