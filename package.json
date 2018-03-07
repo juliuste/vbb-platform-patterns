@@ -1,0 +1,55 @@
+{
+	"name": "vbb-platform-patterns",
+	"description": "VBB station platform wall (tile) color patterns.",
+	"version": "0.0.0",
+	"keywords": [
+		"vbb",
+		"berlin",
+		"brandenburg",
+		"verkehrsverbund",
+		"public",
+		"transport",
+		"platform",
+		"color",
+		"pattern",
+		"patterns",
+		"nahverkehr",
+		"ubahn",
+		"sbahn",
+		"metro",
+		"train",
+		"germany",
+		"rail",
+		"bvg"
+	],
+	"author": "Julius Tens <mail@juliustens.eu>",
+	"homepage": "https://github.com/juliuste/vbb-platform-patterns",
+	"repository": "juliuste/vbb-platform-patterns",
+	"bugs": "https://github.com/juliuste/vbb-platform-patterns/issues",
+	"main": "./index.js",
+	"files": [
+		"index.js",
+		"data.ndjson"
+	],
+	"dependencies": {
+		"ndjson": "^1.5.0"
+	},
+	"devDependencies": {
+		"is-stream": "^1.1.0",
+		"is-url": "^1.2.2",
+		"lodash.isarray": "^4.0.0",
+		"lodash.isobject": "^3.0.2",
+		"lodash.isstring": "^4.0.1",
+		"tape": "^4.9.0",
+		"vbb-lines-at": "^3.11.0",
+		"vbb-stations": "^6.2.1"
+	},
+	"scripts": {
+		"test": "node test.js",
+		"prepare": "npm test"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"license": "ODbL-1.0"
+}
