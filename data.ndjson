@@ -1,2 +1,18 @@
 {"station":{"id":"900000079202","name":"U Boddinstr."},"lines":["U8"],"colors":["silver","blue"],"image":{"source":"flickr","id":15018334836,"user":"ingolfbln"}}
 {"station":{"id":"900000054103","name":"U Eisenacher Str."},"lines":["U7"],"colors":["green"],"image":{"source":"flickr","id":6385267151,"user":"ingolfbln"}}
+{"station":{"id":"900000096197","name":"S+U Wittenau [U8]"},"lines":["U8"],"colors":["olive","yellow"],"image":{"source":"commons","id":"U-Bahnhof_Wittenau_(34197655776).jpg"}}
+{"station":{"id":"900000096410","name":"U Rathaus Reinickendorf"},"lines":["U8"],"colors":["silver","orange"],"image":{"source":"commons","id":"Berlin_-_U-Bahnhof_Rathaus_Reinickendorf_-_Linie_U8_(6477177115).jpg"}}
+{"station":{"id":"900000096458","name":"S+U Karl-Bonhoeffer-Nervenklinik"},"lines":["U8"],"colors":["black","maroon","orange"],"image":{"source":"commons","id":"Berlin_-_U-Bahnhof_Karl-Bonhoeffer-Nervenklinik_(7807059838).jpg"}}
+{"station":{"id":"900000086160","name":"U Lindauer Allee"},"lines":["U8"],"colors":["black","red","yellow","aqua"],"image":{"source":"commons","id":"U-Bahnhof_Lindauer_Allee_(34197846746).jpg"}}
+{"station":{"id":"900000085104","name":"U Paracelsus-Bad"},"lines":["U8"],"colors":["black","gray","white","green","yellow","orange"],"image":{"source":"commons","id":"Berlin_-_U-Bahnhof_Paracelsus-Bad_-_Linie_U8_(6478918003).jpg"}}
+{"station":{"id":"900000085203","name":"U Residenzstr."},"lines":["U8"],"colors":["black","white","orange"],"image":{"source":"commons","id":"U-Bahnhof_Residenzstraße_(34198469696).jpg"}}
+{"station":{"id":"900000085202","name":"U Franz-Neumann-Platz"},"lines":["U8"],"colors":["black","white","green","olive","yellow"],"image":{"source":"commons","id":"U-Bahnhof_Franz-Neumann-Platz_(34198816816).jpg"}}
+{"station":{"id":"900000009202","name":"U Osloer Str."},"lines":["U8","U9"],"colors":["white","red","navy","blue"],"image":{"source":"commons","id":"Berlin_-_U-Bahnhof_Osloer_Straße_-_Linien_U8,_U9_(7618273800).jpg"}}
+{"station":{"id":"900000009203","name":"U Pankstr."},"lines":["U8"],"colors":["silver","maroon"],"image":{"source":"commons","id":"Berlin_-_U-Bahnhof_Pankstraße_-_Linie_U8_(7618020538).jpg"}}
+{"station":{"id":"900000007102","name":"S+U Gesundbrunnen"},"lines":["U8"],"colors":["black","white","green"],"image":{"source":"commons","id":"U-Bahn_Berlin_Gesundbrunnen_Sign.JPG"}}
+{"station":{"id":"900000007103","name":"U Voltastr."},"lines":["U8"],"colors":["green","olive","yellow"],"image":{"source":"commons","id":"Berlin_-_U-Bahnhof_Voltastraße_-_Linie_U8_(7617740880).jpg"}}
+{"station":{"id":"900000007110","name":"U Bernauer Str."},"lines":["U8"],"colors":["white","yellow"],"image":{"source":"commons","id":"Berlin_-_U-Bahnhof_Bernauer_Straße_-_Linie_U8_(6335397247).jpg"}}
+{"station":{"id":"900000100023","name":"U Rosenthaler Platz"},"lines":["U8"],"colors":["orange"],"image":{"source":"commons","id":"Berlin_-_U-Bahnhof_Rosenthaler_Platz_-_Linie_U8_(6335985722).jpg"}}
+{"station":{"id":"900000100051","name":"U Weinmeisterstr."},"lines":["U8"],"colors":["navy","blue"],"image":{"source":"commons","id":"Berlin_-_U-Bahnhof_Weinmeisterstraße_-_Linie_U8_(6942367173).jpg"}}
+{"station":{"id":"900000100705","name":"S+U Alexanderplatz [U8]"},"lines":["U8"],"colors":["green","teal"],"image":{"source":"commons","id":"Berlin_-_U-Bahnhof_Alexanderplatz_-_Bahnsteig_der_U5_(6904300029).jpg"}}
+{"station":{"id":"900000100704","name":"S+U Alexanderplatz [U5]"},"lines":["U5"],"colors":["green","teal"],"image":{"source":"commons","id":"Berlin_-_U-Bahnhof_Alexanderplatz_-_Bahnsteig_der_U5_(6904300029).jpg"}}
