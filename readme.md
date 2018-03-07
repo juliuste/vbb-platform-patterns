@@ -57,7 +57,7 @@ Let's take `U Boddinstraße` as an example: The dataset row would then contain t
 | `nextStation` | Next station on the line. Only set this if there is different patterns on the platforms depending on where you're coming from (like at `U Bundesplatz`). See also `previousStation` | no | `null` |
 | `nextStation.id` | Next station ID\* | (yes) | - |
 | `nextStation.name` | Next station name (only for readability of the dataset) | no | - |
-| `colors`| Color(s) of the tile pattern. See the [colors](#colors) section for a list of valid values. | yes | ["silver", "blue"]
+| `colors`| Color(s) of the tile pattern. See the [colors](#colors) section for a list of valid values. | yes | `["silver", "blue"]`
 | `image`| URL to CC-licensed image of the wall pattern. Can contain the station sign. | no | `https://c2.staticflickr.com/4/3851/15018334836_96191ddb46_b.jpg` |
 
 \* See [this document](station-ids.md) if you don't know how to find out some station's VBB station ID
