@@ -11,13 +11,12 @@ const isStream = require('is-stream')
 const getStations = require('vbb-stations')
 const linesAt = require('vbb-lines-at')
 const isURL = require('is-url')
+const isHexcolor = require('is-hexcolor')
 
 const platformPatterns = require('.')
 
 const notNullString = (x) => isString(x) && !!x
 const undefinedOrString = (x) => (isString(x) && !!x) || x === undefined
-
-const css2Colors = ['black', 'silver', 'gray', 'white', 'maroon', 'red', 'purple', 'fuchsia', 'green', 'lime', 'olive', 'yellow', 'navy', 'blue', 'teal', 'aqua', 'orange']
 
 const dataFile = path.join(__dirname, 'data.ndjson')
 
@@ -74,7 +73,7 @@ test('data.ndjson contains correct values', (t) => {
 		// colors
 		t.ok(isArray(p.colors), desc + ' colors')
 		t.ok(p.colors.length > 0, desc + ' colors')
-		t.ok(p.colors.every(c => css2Colors.includes(c)), desc + ' colors')
+		t.ok(p.colors.every(isHexcolor), desc + ' colors')
 
 		// image
 		if(p.image){
