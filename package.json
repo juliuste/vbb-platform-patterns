@@ -42,7 +42,7 @@
 		"lodash.isobject": "^3.0.2",
 		"lodash.isstring": "^4.0.1",
 		"tape": "^4.9.0",
-		"vbb-lines-at": "^3.11.0",
+		"vbb-lines-at": "^4.2.0",
 		"vbb-stations": "^6.2.1"
 	},
 	"scripts": {
